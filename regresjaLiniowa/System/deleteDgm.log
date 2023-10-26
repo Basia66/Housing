@@ -1,0 +1,18 @@
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+297        libname _hpdmDat
+297      ! "C:\Users\Basia\Documents\SAS\lab6\Adamczyk_Frydlewicz_lab6\regresjaLiniowa\Workspaces\E
+297      ! MWS1\HPDM";
+NOTE: Libref _HPDMDAT was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: 
+      C:\Users\Basia\Documents\SAS\lab6\Adamczyk_Frydlewicz_lab6\regresjaLiniowa\Workspaces\EMWS1\H
+      PDM
+298        libname _hpdmDat;
+NOTE: Libref _HPDMDAT has been deassigned.
+299        proc printto;
+300        run;
+
